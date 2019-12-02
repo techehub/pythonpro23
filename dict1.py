@@ -14,7 +14,7 @@ data = {
             },
         }
 
-for a,b in data.items ():
+for k,v in data.items ():
     marks= v ["mark"]
     total=0
     for x in marks:
