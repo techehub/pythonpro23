@@ -4,22 +4,31 @@ from files.myfunctions import add,  diff
 from files.myfunctions1 import  mul, div, add
 
 
+def calculate (logic , n1, n2):
+    res = logic(n1, n2)
+    return res
+
+
 def test():
     num1 = int (input ("Num1 :"))
     num2 = int(input("Num2 :"))
     op = input ("Calculation :")
+
+
     if (op == "+"):
-        result = add(num1, num2)
+        logic = add
     elif (op=="-"):
-        result = diff (num1, num2)
+        logic = diff
     elif (op=="*"):
-        result = mul(num1, num2)
+        logic = mul
     elif (op=="/"):
-        result = div (num1, num2)
+        logic= div
     else :
         print ("You are trying an invalid operator !!!")
 
-    print (result )
+    print (type (logic))
+    result = calculate(logic, num1, num2)
 
+    print (result)
 
 test()
