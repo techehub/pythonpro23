@@ -3,16 +3,12 @@ class Student :
         self.rollno= rollno
         self.name= name
         self.marks= marks.split (",")
-        print ("Object created ")
-
     def totalMarks(self):
         return int (self.marks[0])+\
                int (self.marks[1]) + \
                int (self.marks[2])
-
     def avgMarks (self):
         return self.totalMarks()/3
-
     def display (self):
         print ("Roll No: " ,self.name)
         print("Name: ", self.name)
@@ -29,8 +25,6 @@ while  (i<int(c)):
     s1 = Student (name, rollno, marks)
     students.append(s1)
     i= i+1
-
-
 
 for x in students :
     x.display()
