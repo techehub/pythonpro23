@@ -1,0 +1,11 @@
+DEBUG:root:func.__name__greet*args=('2132342',)**kwargs{'name': 'Kumar', 'msg': 'Good morning'}
+INFO:root:time taken :0.0003600120544433594
+DEBUG:root:func.__name__add*args=(10, 20)**kwargs{}
+INFO:root:time taken :0.000125885009765625
+DEBUG:root:func.__name__greet*args=('2132342',)**kwargs{'name': 'Kumar', 'msg': 'Good morning'}
+INFO:root:time taken :0.0002639293670654297
+DEBUG:root:func.__name__div*args=(10, 0)**kwargs{}
+ERROR:root:division by zero
+INFO:root:time taken :0.0002658367156982422
+DEBUG:root:func.__name__add*args=(10, 20)**kwargs{}
+INFO:root:time taken :7.295608520507812e-05
