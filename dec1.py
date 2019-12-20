@@ -1,7 +1,7 @@
 import logging
 import time
 
-logging.basicConfig(filename="mylog2.txt", level=logging.ERROR)
+logging.basicConfig(filename="mylog2.txt", level=logging.DEBUG)
 
 def outer (func):
     def inner (*args, **kwargs):

@@ -1,0 +1,6 @@
+INFO:root:func.__name__greet*args=('2132342',)**kwargs{'name': 'Kumar', 'msg': 'Good morning'}
+INFO:root:func.__name__add*args=(10, 20)**kwargs{}
+INFO:root:func.__name__greet*args=('2132342',)**kwargs{'name': 'Kumar', 'msg': 'Good morning'}
+INFO:root:time taken :0.00019979476928710938
+INFO:root:func.__name__add*args=(10, 20)**kwargs{}
+INFO:root:time taken :7.224082946777344e-05
